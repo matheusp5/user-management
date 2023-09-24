@@ -13,9 +13,6 @@ public class HomeScreen {
         System.out.println("********************************");
         System.out.println("Gerenciamento de Usuários");
         System.out.println("********************************");
-
-
-
         HomeScreen.MainChoose();
     }
 
@@ -71,6 +68,7 @@ public class HomeScreen {
             System.out.println();
             System.out.println("Sucesso, Usuário correto!");
         } else {
+            System.out.println();
             System.out.println("Erro, usuário incorreto!");
         }
     }
